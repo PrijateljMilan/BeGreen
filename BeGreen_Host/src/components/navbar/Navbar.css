@@ -1,0 +1,19 @@
+.beGreenLogo{
+    transition: all 0.3s ease-in-out;
+    color: #31b675;
+    /*Logo*/
+}
+
+.beGreenLogo:hover{
+    color: white;
+}
+
+.navbarLinks:hover{
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline 0.12em;
+    /*Elementi sa navbar(home, search, contact us, sign in i register)*/
+}
+
+.navbarLinks:hover{
+    color: #31b675;
+}

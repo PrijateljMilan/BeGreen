@@ -1,0 +1,17 @@
+.divTable {
+    display: flex;
+    justify-content: center;
+}
+
+.userTable {
+    width: 75%;
+    margin-top: 5%;
+}
+
+.deleteOwnerModal{
+    background-color: #28242c;
+}
+
+.deleteUserModal{
+    background-color: #28242c;
+}

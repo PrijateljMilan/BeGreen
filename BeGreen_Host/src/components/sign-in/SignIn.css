@@ -1,0 +1,22 @@
+body {
+    /* fallback for old browsers */
+    background: #31b675;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #31b675, rgb(9, 104, 52));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #31b675, rgba(9, 104, 52))
+  }
+.sign-in-btn
+{
+  margin: 15px;
+}
+
+.toast-div-sign-in{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}

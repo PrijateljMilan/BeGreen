@@ -1,0 +1,40 @@
+.gradient-custom-3, .background-register {
+    /* fallback for old browsers */
+    background: #31b675;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #31b675, rgb(9, 104, 52));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #31b675, rgba(9, 104, 52))
+}
+
+.register-btn {
+    /* fallback for old browsers */
+    background: #31b675;
+}
+
+.sign-in-link{
+    display: flex;
+    justify-content: center;
+}
+
+.validation-warning{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-inputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.invalid-feedback {
+    display:inline;
+    width: 100%;
+    margin-top: 0.15rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+

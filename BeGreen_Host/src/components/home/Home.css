@@ -1,0 +1,17 @@
+.home-picture img
+{
+    height: 800px;
+}
+
+.homeCaptions {
+    position: absolute;
+    bottom: 60vh;
+    right: 35%;
+    text-shadow: 2px 2px black;
+    
+}
+
+.homeCaptions h1{
+    font-size: 50px;
+}
+

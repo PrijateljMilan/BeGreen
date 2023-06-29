@@ -1,0 +1,22 @@
+/* #28242c */
+.footer
+{
+    background-color: #28242c;
+}
+.footer-up
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 15px;
+}
+.about-us-div, .copyright-div
+{
+    margin-top: 15px;
+    color: whitesmoke;
+    padding: 3px;
+}
+.copyright-div
+{
+    text-align: center;
+    font-size: small;
+}

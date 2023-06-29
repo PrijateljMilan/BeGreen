@@ -1,0 +1,37 @@
+.addPropertyBtn{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    
+}
+.addProperties {
+    display: block;
+    width: 35%;
+    border: none;
+    background-color: rgb(9, 104, 52);
+    color: white;
+    /* border: 2px solid #28242c;  */
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.addProperties:hover{
+    background-color: #28242c;
+    /* border: 2px solid #28242c;  */
+    color: #31b675;
+    
+}
+
+.mdbCol-Btns{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.addModal{
+    background-color: #28242c;
+}

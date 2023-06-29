@@ -1,0 +1,14 @@
+.button-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation-img img {
+    height: 500px;
+}
+
+.divTableUser {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 455px;
+}

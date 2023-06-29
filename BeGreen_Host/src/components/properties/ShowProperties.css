@@ -1,0 +1,73 @@
+.showPropertiesCards {
+    background: #31b675;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #31b675, rgb(9, 104, 52));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #31b675, rgba(9, 104, 52));
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mdbColInfoName,.mdbColInfo {
+    display: flex;
+    justify-content: left;
+    /* padding: 2%; */
+
+}
+.mdbColInfo
+{
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+
+
+.showPropertiesCardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.mbd-row
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text
+{
+    display: flex;
+    justify-content: left;
+    height: 30px;
+}
+
+.properties-button-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.searchDescription
+{
+    border: 0px;
+    background-color: #312d35;
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+.deleteModal{
+    background-color: #28242c;
+}
+
+.editModal{
+    background-color: #28242c;
+}
+
